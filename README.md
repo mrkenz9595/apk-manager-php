@@ -1,1 +1,1 @@
-# Server PHP Qu?n l� v� c?p nh?t ?ng d?ng APK cho Android TV
+# Server PHP Quản lý và cập nhật ứng dụng APK cho Android TV
