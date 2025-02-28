@@ -1,11 +1,11 @@
-version: '3.8'
+version: "3.8"
+
 services:
-    php-apache-environment:
-        container_name: apk-manager-php
-        build:
-            context: ./php-apache2
-            dockerfile: Dockerfile
-        volumes:
-            - ./sources/:/var/www/html/
-        ports:
-            - 8000:80
+  php-apache:
+    build:
+      context: ./php-apache2
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - ./server:/var/www/html
